@@ -117,7 +117,6 @@ alias la='ls -A'
 alias l='ls -CF'
 alias tn="tmux new -s"
 alias ta="tmux attach -t"
-alias python='/usr/bin/python3.8'
 alias vi="nvim"
 alias lg="lazygit"
 # alias ls="exa "
@@ -129,8 +128,3 @@ alias lg="lazygit"
 export PATH="$HOME/.local/bin:$PATH"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-
-echo -ne "\e[?25h"
-
-# eval "$(starship init bash)"
-
