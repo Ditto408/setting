@@ -115,7 +115,6 @@ alias l='ls -CF'
 alias tn="tmux new -s"
 alias tn="tmux new -s"
 alias ta="tmux attach -t"
-alias python='/usr/bin/python3.8'
 alias vi="nvim"
 alias lg="lazygit"
 # alias ls="exa"
@@ -127,4 +126,3 @@ export PATH="$HOME/.local/bin:$PATH"
 echo -ne "\e[?25h"
 
 export DISPLAY=:0
-
